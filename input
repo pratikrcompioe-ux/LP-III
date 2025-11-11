@@ -1,0 +1,75 @@
+1. FractionalKnapsack :
+Enter number of items: 3
+Enter value of item 1: 30
+Enter weight of item 1: 18
+Enter value of item 2: 21
+Enter weight of item 2: 15
+Enter value of item 3: 18
+Enter weight of item 3: 10
+Enter capacity of knapsack: 20
+
+--------------------------------------------------------------
+Item	Value	Weight	Ratio	Taken	RemainingCap	TotalValue
+--------------------------------------------------------------
+1	18	10	1.80	FULL	10.00		18.00
+2	30	18	1.67	55.56%	0.00		34.67
+--------------------------------------------------------------
+
+Maximum value obtainable = 34.67
+
+
+2. HuffmanCodding : 
+Enter number of characters: 6
+Enter characters and their frequencies:
+Character 1: a
+Frequency of a: 39
+Character 2: b
+Frequency of b: 10
+Character 3: c
+Frequency of c: 9
+Character 4: d
+Frequency of d: 25
+Character 5: e
+Frequency of e: 7
+Character 6: f
+Frequency of f: 3
+
+Huffman Codes for the given characters are:
+a : 0
+d : 10
+b : 110
+c : 1110
+f : 11110
+e : 11111
+
+3. 0/1 Knapsack : 
+Enter number of items: 3
+Enter value of item 1: 1
+Enter weight of item 1: 2
+Enter value of item 2: 2
+Enter weight of item 2: 3
+Enter value of item 3: 5
+Enter weight of item 3: 4
+Enter capacity of knapsack: 6
+
+DP Table:
+   0   0   0   0   0   0   0
+   0   0   1   1   1   1   1
+   0   0   1   2   2   3   3
+   0   0   1   2   5   5   6
+
+Maximum value obtainable = 6
+
+
+4. N-Queen : 
+Enter number of Queens (N): 6
+Enter row (1 to 6) for first Queen: 1
+Enter column (1 to 6) for first Queen: 4
+
+Final N-Queens Board (1 = Queen, 0 = Empty):
+0 0 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 1 0 
+0 1 0 0 0 0 
+0 0 0 0 0 1 
+0 0 1 0 0 0 
